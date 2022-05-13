@@ -1,0 +1,16 @@
+* {
+    border: 2px solid blue;
+}
+
+body {
+    background-color: pink;
+}
+
+img {
+    margin: 50px auto;
+}
+footer {
+    margin: 0 auto;
+    width: 18%;
+    text-align: center;
+}

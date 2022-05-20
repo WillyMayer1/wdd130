@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lobster&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +9,7 @@ nav a {
     text-align: center;
     color: #fbf1e9;
     text-decoration: none;
+    padding: 35px;
 }
 
 
@@ -30,6 +33,10 @@ main section {
 
 body {
     background-color: whitesmoke;
+    font-family: "courgette", helvetica, 'times new roman';
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -45,12 +52,21 @@ nav a:hover {
     background-color: whitesmoke;
     color: #415a77;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+
 }
 
 .join {
     background-color: #415a77;
     color: whitesmoke;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover {
@@ -65,10 +81,14 @@ nav a:hover {
 
 .msg {
     background-color: #415a77;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer {
     background-color: #415a77;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 #hero-img {
@@ -82,6 +102,9 @@ footer {
 
 .home-title {
     color: #1D3C5E;
+    font-family: "lobster", helvetica, "times new roman";
+    font-size: 3em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -104,4 +127,34 @@ footer a {
 
 footer a:hover {
     color: #778da9;
+}
+
+.msg h2 {
+    font-family: "lobster", helvetica, "times new roman";
+}
+
+.msg p {
+    font-size: 1em;
+    padding-bottom: 15px;
+}
+h2 {
+    margin: 0;
+}
+.icon {
+    padding-top: 10px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+#logo_link {
+    padding-top: 5px;
+}
+.rivers-card, .camping-card, .rapids-card   {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
 }

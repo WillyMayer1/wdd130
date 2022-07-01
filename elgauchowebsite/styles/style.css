@@ -200,6 +200,7 @@ h3 {
     margin-top: 10;
     margin-bottom: 100px;
     border: 10px #6f7364 solid;
+    box-shadow: 5px 5px 10px #6f7364;
     }
 
     h4 {

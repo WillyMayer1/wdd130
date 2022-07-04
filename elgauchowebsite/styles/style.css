@@ -11,6 +11,7 @@ nav {
 display : flex;
 justify-content : space-around;
 padding : 2.25em;
+height: 50px;
 }
 nav a {
 line-height : 1em;
@@ -23,6 +24,8 @@ font-size : 1em;
 border-radius : 30px;
 font-family : 'Quicksand', Lato, serif;
 font-weight : bold;
+margin: 0 auto;
+padding-top: 20px;
 }
 #logo_home {
 padding-top : 5px;
@@ -33,13 +36,16 @@ position : relative;
 .logo {
 position : relative;
 mix-blend-mode : inherit;
-width : 130px;
-height : 130px;
+width : 100px;
+height : 100px;
 }
 header {
 background-color : #5899e2;
 display : grid;
 grid-template-columns : 150px auto;
+/*adding a fixed menu */
+position: fixed;
+width: 100%;
 }
 #hero {
 display : grid;

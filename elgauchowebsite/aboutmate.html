@@ -6,12 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>El Gaucho</title>
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
     <header>
         <a id="logo_home" href="index.html">
-            <img src="resources/logogaucho.png" width="130px" height="130px" alt="mate logo">
+            <img class="logo" src="resources/logogaucho.png" alt="mate logo">
         </a>
         <nav>
             <a href="index.html">Home</a>
@@ -20,14 +21,14 @@
         </nav>
     </header>
     <div id="hero">
-        <img src="resources/heroimg.jpg" width="600" height="400" alt="cebando mate">
+        <div id="hero-box">
+            <img src="resources/heroimg.jpg" alt="cebando mate">
+        </div>
     </div>
-    <section id="hero-msg">
-    </section>
     <main>
         <div class="explaining_mate">
-            <h3 class="mate_title">A little of history</h3>
-            <p>
+            <h1 class="mate_hist_title">A little of history</h1>
+            <p class="mate_hist_par">
                 Mate is an infusion that is prepared with the leaves of Ilex paraguariensis, a tree that is exclusive to
                 the subtropical regions of South America. It has been consumed for many centuries and has established
                 itself throughout history as the favorite drink of millions of people in Argentina (the world's leading
@@ -43,11 +44,11 @@
                 heated water and passed the mate from hand to hand. During the independence of Argentina in the 19th
                 century, the tradition of drinking mate became entrenched in the country's national culture.
             </p>
-            <img src="resources/sharingmate.jpg" width="400" height="300" alt="sharing mate">
+            <img class="mate_hist_pic1"  src="resources/sharingmate.jpg" alt="sharing mate">
         </div>
         <div class="nutrition">
-            <h3>Why you should drink mate?</h3>
-            <p>
+            <h1 class="mate_nut_title">Why you should drink mate?</h1>
+            <p class="mate_nut_par">
                 One of the main reasons people love yerba mate is its stimulating and energizing effect, the same reason
                 people like to drink coffee or tea in the morning (although yerba mate has undeniable advantages over
                 these beverages). The caffeine contained in yerba mate stimulates the nervous system and increases
@@ -66,22 +67,39 @@
                 and toxins. And as if that were not enough, mate improves cognitive functions, is an effective
                 neuro-protector, and has detoxifying, diuretic, and anti-inflammatory effects.
             </p>
-            <img src="resources/yerbamate.jpg" width="400" height="300" alt="">
+            <img class="mate_nut_pic" src="resources/yerbamate.jpg" width="400" height="300" alt="">
+            <div class="mate_facts">
+                <p>The following nutrition information is provided by the USDA for one cup (12g) of a branded yerba 
+                    mate beverage (Mate Revolution) that lists just organic yerba mate as an ingredient.</p>
+                <ul>
+                    <li>Calories: 15</li>
+                    <li>Fat: 0g</li>
+                    <li>Sodium: 0mg</li>
+                    <li>Carbohydrates: 3g</li>
+                    <li>Fiber: 0g</li>
+                    <li>Sugar: 0g</li>
+                    <li>Protein: 0.5g</li>
+                </ul>
+            </div>
         </div>
         <div id="subscribe">
-            <h2>Want to know more?</h2>
             <section>
-                <form action="/elgauchowebsite" method="post">
-                    <input type="email" name="user_email" id="mail" placeholder="Your email">
-                    <button type="submit">Subscribe here!</button>
+                <h2>Want to know more?</h2>
+                <form>
+                    <div class="container">
+                        <input type="text" placeholder="Email address" name="mail" required>
+                    </div>
+                    <div class="container">
+                        <input type="submit" value="Subscribe here">
+                    </div>
                 </form>
             </section>
         </div>
     </main>
     <footer>
         <h3>El Gaucho &copy; 2022 - Willian Mayer</h3>
-        <h3><a href="site-plan.html">Site Plan</a></h3>
-        <h3><a href="contactme.html">Contact Us</a></h3>
+        <h3 class="links"><a href="site-plan.html">Site Plan</a></h3>
+        <h3 class="links"><a href="contactme.html">Contact Us</a></h3>
         <div class="social">
             <a href="https://facebook.com" target="_blank">
                 <img src="resources/facebook.png" alt="fb icon">

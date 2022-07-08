@@ -222,7 +222,7 @@ grid-column: 2 / 3;
 grid-row: 2 / 3;
 margin-top: -150px;
 }
-.mate_hist_pic1 {
+.mate_hist_pict {
 grid-column: 2/ 4;
 grid-row: 3 / 4;
 margin: 0 auto;
@@ -230,6 +230,8 @@ width: 450px;
 height: 300px;
 margin-left: 50px;
 padding-bottom: 0px;
+border : #6f7364 solid 10px;
+box-shadow : 5px 5px 10px #6f7364;
 }
 .nutrition {
 display: grid;
@@ -254,6 +256,8 @@ grid-row: 3 / 4;
 margin: 0 auto;
 width: 450px;
 height: 300px;
+border : #6f7364 solid 10px;
+box-shadow : 5px 5px 10px #6f7364;
 }
 .mate_facts {
 grid-column: 3 / 4;
